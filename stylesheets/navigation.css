@@ -1,0 +1,227 @@
+
+p.headertitle {
+color:#999999;
+font-size:1.2em;
+}
+
+a.image-reference:visited {
+   color: #999999;
+}
+
+#wrap {
+	width:800px;
+	margin: 0em auto;
+}
+
+img {
+	border:0;
+}
+
+/**************/
+/*   HEADER   */
+/**************/
+#header-section {
+	padding:0.0em 0em 0.3em 0em;
+	margin: 0;
+	margin-bottom:0em;
+	margin-top:0.0em;
+	text-align:center;
+}
+
+#header {
+	clear: both;
+	margin: 0em 0em 1.0em 0.0em;
+        border-top: solid 0.0em rgb(128, 128, 128);
+    	border-bottom: solid 0.1em rgb(128, 128, 128);
+    	background-color: rgb(255,255,255);
+	line-height: 1.7em;
+	height: 1.7em;
+        padding: 0.4em 0.0em 0.0em 0.0em;
+}
+
+#header ul {
+	margin: 0em;
+	padding: 0em;
+	list-style: none;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+#header li {
+	float: left;
+	white-space: nowrap;
+    	padding: 0em 1.0em 0.0em 0.0em;
+    	display: block;
+        color: rgb(0, 0, 51);
+        font-family: 'Fira Sans', sans-serif;
+    	font-size: 1.05em;
+
+}
+
+#header li a {
+	display: block;
+	padding: 0em 0.0em 0em 0.0em;
+	background-color: rgb(255,255,255);
+	text-decoration: none;
+        /* soton color: rgb(1,67,89); */
+        color: rgb(128, 128, 128);
+
+
+}
+
+#header a:hover {
+    	/* background-color: rgb(1,0,255);*/
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+        /* color: rgb(255,255,255);*/
+        color: rgb(253, 147, 11);
+}
+
+
+
+* html #header a {width:1%;}
+
+/***********************/
+/***   LEFT COLUMN   ***/
+/***********************/
+#left-column {
+
+	width: 150px;
+/*        width: 25%; */
+	vertical-align: top;
+	background-color: rgb(255,255,255);
+	font-size: 1.05em;
+	color: rgb(50,50,50);
+}
+
+.left-navheader-first {
+    	display: block;
+	margin: 1.0em 0em 0em 0em;
+	/*padding: 0.3em;*/
+ 	/* border-left: solid 0.0em rgb(230,231,232); */
+	background-color: rgb(10,150,169);
+        /* no effect? background-color: rgb(255,0,0); */
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	/*text-align:center;*/
+
+}
+
+.left-navheader {
+	display: block;
+	/*margin: 1.0em 0em 0.5em 0em;*/
+	padding: 0.3em 0.7em 0.2em 0.4em;
+        border-top: solid 1px rgb(0,0,51);	
+	border-left: solid 1px rgb(0,0,51);
+	border-left: solid 1px rgb(0,0,51);
+        background-color: rgb(153, 153, 190);
+	text-decoration: none;
+    	color: rgb(255,255,255);
+}
+
+
+#sidie ul {
+	width: 95%; /* used to be 95 */
+	padding: 0em;
+	margin: 0em;
+	list-style: none;
+}
+
+#sidie li {
+	margin: 0em 0em 0em 0em;
+        font-family: 'Fira Sans', sans-serif; /*Georgia, serif;*/
+    	/*background-color: rgb(1,67,89);
+        color: rgb(255,255,255);*/
+        font-size: 1.05em;
+}
+
+
+
+#sidie li a {
+        /* this is the side bar */
+        display: block;
+	padding: 0.3em 0.7em 0.2em 1.2em;
+	border-left: solid 1px rgb(0,0,51);
+	border-top: solid 1px rgb(0,0,51);
+
+        background-color: rgb(153, 153, 190);
+	text-decoration: none;
+	font-weight: normal;
+        color: rgb(255,255,255);
+        /*height: 1.3em;*/
+}
+
+#sidie li a:hover {
+	border-left: solid 0.0em rgb(112,112,112);
+        /* background-color: rgb(128, 64, 64);*/
+        color: rgb(253, 147, 11);
+        /* background-color: rgb(41, 26, 74); */
+	text-decoration: none;
+	/*color: rgb(50,50,50);*/
+}
+
+.sidieimg {
+    text-align: center;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+/*************************/
+#sidie2 a {
+text-decoration:none;
+}
+.sidie2title {
+margin:0;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+#sidie2 p {
+margin:0;
+}
+#sidie2 p a:hover {
+	background-color: rgb(230,231,232);
+}
+.sidie2indent {
+margin-left:1.5em;
+margin-top:0.5em;
+}
+/*************************/
+
+/*************************/
+/***   MIDDLE COLUMN   ***/
+/*************************/
+
+/* Sections */
+/************/
+#middle-column {
+	width: 640px;
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	line-height: 1.3em;
+	font-size: 1.2em;
+}
+
+#middle-column h1 {padding: 0px;}
+
+/*******************/
+/***   FOOTER    ***/
+/*******************/
+#footer {
+	clear: both;
+	height: 1.4em;
+	margin: 1.0em 0em 1.0em 0em;
+	padding: 0.35em 0em 0.3em 0em;
+	border-top: solid 0.1em rgb(0,74,116);
+        border-top: solid 0.1em rgb(128, 128, 128);
+
+	/* soton border-bottom: solid 0.1em rgb(0,74,116); */
+        border-bottom: solid 0.1em rgb(128, 128, 128);
+	background-color: rgb(230,230,230);
+	text-align: center;
+	/* soton color: rgb(0,74,116); */
+        color: rgb(0,0,0);
+	font-size: 1.0em;
+}

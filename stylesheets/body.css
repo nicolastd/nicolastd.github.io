@@ -1,0 +1,205 @@
+/* yellow: rgb(253,141,11);} */
+/* blueish: rgb( 0, 92, 132) */
+/* purple: rgb(41, 26, 74) = #291A4A */
+
+
+/* p.headertitle {
+color:#999999;
+font-size:1.2em;
+}
+
+a.image-reference:visited {
+   color: #999999;
+} */
+
+
+
+#wrap {
+	width:800px;
+	margin: 0em auto;
+}
+
+p, td, th, li {
+    /* font-family: Gill, Verdana, Arial, Helvetica, sans-serif; */
+    font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	line-height: 16pt;
+	/* color: #000033;*/
+        color: rgb(20,20,20);
+}
+
+
+body {
+        background-color: #FFFFFF;
+        background-repeat: repeat-x
+}
+
+body {
+	font-size: 62.5%;
+	margin: 0em auto;
+	padding: 0em;
+  	font-family: 'Fira Sans', sans-serif;
+}
+
+
+.maincontent {
+	vertical-align: top;
+	margin-right: 10px;   /* what does this do?*/
+	margin-top: 0px;
+        a:link{ color: rgb(255,0,0);}
+}
+
+
+.secondnav {
+	border: 1px solid #000066;
+	padding: 5px;
+	/* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000066;
+	background-color: #EDEAFB;
+	vertical-align: top;
+
+}
+
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+
+       /* color: rgb(0,74,116); */
+       color: rgb(0,0,0); /* farbe text */
+       font-size: 20px;
+       font-weight: bold;
+       line-height: 22pt;
+ }
+
+h2 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+        /* soton color: rgb(0,74,116); */
+        color: rgb(0,0,0); /* farbe text */
+}
+
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+        /* soton color: rgb(0,74,116); */
+        color: rgb(0,0,0); /* farbe text */
+}
+
+h4 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    /*
+	color: #666699;
+       */
+        /* color  #000066;
+            color: rgb(0,74,116); */
+        color: rgb(0,0,0); /* farbe text */
+}
+
+
+
+
+.navtitle {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+        background-color: #7777AA;
+        background-color: rgb(0,0,255); /* ? */
+        text-align: center;
+}
+
+
+a.nav:link { color: rgb(0,255,0);}
+a.nav:visited {color: rgb(0,255,0);}
+a.nav:hover { color: rgb(0,255,0); }
+
+
+
+
+
+
+
+
+
+.footer {
+       font-family: Verdana,Arial, Helvetica, sans-serif;
+       font-size: 9px;
+       font-weight: bolder;
+       color: #FFFFFF;
+       color: #444444;
+    #       background-color: #000058;
+}
+
+
+
+/* inspired from Juergen's webpage */
+
+
+blockquote {
+    color: #000033;
+    background-color: rgb(230,231,232);
+/*    width: 400px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:5px;
+}
+
+
+/* right order, from https://stackoverflow.com/questions/1337033/css-avisitedhover:
+a:link { color: red; }
+a:visited { color: blue; }
+a:visited:hover { color: yellow; }
+a:hover { color: green; }
+a:active { color: gray; }
+*/
+
+
+/*<style type="text/css"> */
+/* purple: */
+/*A:link {text-decoration: underline; color: rgb(41, 26, 74);}*/
+A:link {text-decoration: underline; color: rgb(41, 26, 74);}
+/*A:visited {text-decoration: underline; color: rgb(41, 26, 74);}*/
+A:visited {text-decoration: none; color: rgb(100, 100, 100);}
+A:visited:hover {text-decoration: underline; color: rgb(253, 141, 11);}
+A:hover {text-decoration: none; color: rgb(253, 141, 11);}
+A:active {text-decoration: none; color: rgb(0,255,0); }
+/* soton A:link {text-decoration: underline; color: rgb(1,67,89);} */
+/* A:link {text-decoration: underline; color: rgb(253, 141, 11);} */
+/* A:hover {text-decoration: none; color: rgb(253,147,11);} */
+/* soton A:visited {text-decoration: underline; color: rgb(10,150,169);} */
+/* yellow: A:visited {text-decoration: underline; color: rgb(253,141,11);}*/
+/* </style>*/
+
+
+/*
+a.std:link {text-decoration: underline; color: rgb(1,67,89);}
+a.std:visited {text-decoration: underline; color: rgb(253, 147, 11);}
+a.std:hover {color: rgb(0,0,255);}
+*/
+
+
+a.target {
+    color: green;
+}
+
+a.toc-backref {
+    text-decoration: none;
+    color: ;
+}
+
+a.toc-backref:hover {
+    background-color: inherit;
+}
+
+a:hover {
+    background-color: white;
+}
