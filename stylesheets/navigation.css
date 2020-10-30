@@ -218,8 +218,8 @@ margin-top:0.5em;
         border-top: solid 0.1em rgb(128, 128, 128);
 
 	/* soton border-bottom: solid 0.1em rgb(0,74,116); */
-        border-bottom: solid 0.1em rgb(128, 128, 128);
-	background-color: rgb(230,230,230);
+        border-bottom: solid 0.1em rgb(0, 0, 51);
+	background-color: rgb(153,153,190);
 	text-align: center;
 	/* soton color: rgb(0,74,116); */
         color: rgb(0,0,0);
